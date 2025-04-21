@@ -1,0 +1,94 @@
+:root {
+    --primary-color: #2563eb;
+    --dark-color: #1e293b;
+    --light-color: #f8fafc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+    color: var(--dark-color);
+    background-color: #f1f5f9;
+}
+
+.header {
+    background: var(--primary-color);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.tagline {
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.input-group {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#btn-sum {
+    background: var(--primary-color);
+    color: white;
+}
+
+#btn-sum:hover {
+    opacity: 0.9;
+}
+
+#btn-reset {
+    background: #e2e8f0;
+}
+
+.result {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--dark-color);
+    color: white;
+}
